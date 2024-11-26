@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+}
+
+header {
+    background-color: #333e65;
+    padding: 2% 0;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header nav a {
+    color: white;
+    margin: 0 2%;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#accueil {
+    background-image: url(../images/bckgrn.png);
+    padding: 5% 2%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-attachment: fixed; 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+
+
+.profil img {
+    border-radius: 50%;
+    width: 20%;
+    height: auto;
+    margin-bottom: 2%;
+}
+
+.profil :hover{
+
+    width: 21%;
+}
+
+h1, h3{
+    color: white;
+    font-weight: 1000;
+}
+
+#education, #experience, #informations {
+    padding: 5% 2%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start; 
+}
+
+#education {
+    background-color: #333e65;
+}
+
+#experience {
+    background-color: #404a6f;
+}
+
+#informations {
+    background-color: #333e65;
+}
+
+.educationd, .experienced, .infod {
+    display: flex;
+    gap: 2%;
+    width: 90%; 
+    max-width: 100%;
+    flex-wrap: wrap; 
+    justify-content: center; 
+}
+
+.education, .experience, .info {
+    background-color: #f4f4f4;
+    padding: 3%;
+    border-radius: 8px;
+    text-align: center;
+    flex: 1 1 30%; 
+    min-width: 2%; 
+    margin: 1%;
+}
+.education :hover, .experience :hover, .info :hover {
+    background-color: #ccbbbb;
+    border-color: #ccbbbb;
+    border-radius: 8px;
+    padding: 3%;
+    margin: 1%;
+    flex: 1 1 30%; 
+    min-width: 2%; 
+   
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .socials a {
+    color: white;
+    margin-left: 2%;
+    text-decoration: none;
+}
+
+footer .socials {
+    display: flex;
+}
